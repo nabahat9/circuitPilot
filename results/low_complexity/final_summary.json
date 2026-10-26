@@ -1,0 +1,237 @@
+{
+  "data_seed": 42,
+  "train_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "noise_levels": [
+    0.0,
+    0.005,
+    0.01,
+    0.02,
+    0.05,
+    0.1
+  ],
+  "test_size": 114,
+  "summary_table": [
+    {
+      "model": "evolved_best",
+      "noise_prob": 0.0,
+      "mean": 0.9438596491228071,
+      "std": 0.004529805083283482
+    },
+    {
+      "model": "evolved_best",
+      "noise_prob": 0.005,
+      "mean": 0.9377192982456141,
+      "std": 0.00277392777207753
+    },
+    {
+      "model": "evolved_best",
+      "noise_prob": 0.01,
+      "mean": 0.9368421052631579,
+      "std": 0.00369857036277004
+    },
+    {
+      "model": "evolved_best",
+      "noise_prob": 0.02,
+      "mean": 0.9333333333333333,
+      "std": 0.004529805083283547
+    },
+    {
+      "model": "evolved_best",
+      "noise_prob": 0.05,
+      "mean": 0.9263157894736842,
+      "std": 0.004529805083283544
+    },
+    {
+      "model": "evolved_best",
+      "noise_prob": 0.1,
+      "mean": 0.9078947368421053,
+      "std": 0.011877249129584717
+    },
+    {
+      "model": "logistic_regression",
+      "noise_prob": 0.0,
+      "mean": 0.956140350877193,
+      "std": NaN
+    },
+    {
+      "model": "logistic_regression",
+      "noise_prob": 0.005,
+      "mean": 0.956140350877193,
+      "std": NaN
+    },
+    {
+      "model": "logistic_regression",
+      "noise_prob": 0.01,
+      "mean": 0.956140350877193,
+      "std": NaN
+    },
+    {
+      "model": "logistic_regression",
+      "noise_prob": 0.02,
+      "mean": 0.956140350877193,
+      "std": NaN
+    },
+    {
+      "model": "logistic_regression",
+      "noise_prob": 0.05,
+      "mean": 0.956140350877193,
+      "std": NaN
+    },
+    {
+      "model": "logistic_regression",
+      "noise_prob": 0.1,
+      "mean": 0.956140350877193,
+      "std": NaN
+    },
+    {
+      "model": "manual_qnn",
+      "noise_prob": 0.0,
+      "mean": 0.9377192982456141,
+      "std": 0.004979352738574955
+    },
+    {
+      "model": "manual_qnn",
+      "noise_prob": 0.005,
+      "mean": 0.9333333333333333,
+      "std": 0.004529805083283548
+    },
+    {
+      "model": "manual_qnn",
+      "noise_prob": 0.01,
+      "mean": 0.9315789473684211,
+      "std": 0.0036985703627700436
+    },
+    {
+      "model": "manual_qnn",
+      "noise_prob": 0.02,
+      "mean": 0.9052631578947368,
+      "std": 0.006919391559180823
+    },
+    {
+      "model": "manual_qnn",
+      "noise_prob": 0.05,
+      "mean": 0.8035087719298246,
+      "std": 0.015582353911665757
+    },
+    {
+      "model": "manual_qnn",
+      "noise_prob": 0.1,
+      "mean": 0.631578947368421,
+      "std": 0.0
+    },
+    {
+      "model": "random_search_best",
+      "noise_prob": 0.0,
+      "mean": 0.9438596491228071,
+      "std": 0.004529805083283482
+    },
+    {
+      "model": "random_search_best",
+      "noise_prob": 0.005,
+      "mean": 0.9377192982456141,
+      "std": 0.00277392777207753
+    },
+    {
+      "model": "random_search_best",
+      "noise_prob": 0.01,
+      "mean": 0.9368421052631579,
+      "std": 0.00369857036277004
+    },
+    {
+      "model": "random_search_best",
+      "noise_prob": 0.02,
+      "mean": 0.9324561403508772,
+      "std": 0.0042372446626285
+    },
+    {
+      "model": "random_search_best",
+      "noise_prob": 0.05,
+      "mean": 0.9245614035087719,
+      "std": 0.004529805083283541
+    },
+    {
+      "model": "random_search_best",
+      "noise_prob": 0.1,
+      "mean": 0.8789473684210527,
+      "std": 0.017446121508978115
+    }
+  ],
+  "paired_comparisons": {
+    "evolved_best_vs_manual_qnn": [
+      {
+        "noise_prob": 0.0,
+        "mean_difference": 0.006140350877192946,
+        "std_difference": 0.0072216894942856245,
+        "wins": 5,
+        "ties": 5,
+        "losses": 0,
+        "paired_t_test_p": 0.02484634444065574
+      },
+      {
+        "noise_prob": 0.02,
+        "mean_difference": 0.028070175438596513,
+        "std_difference": 0.008060847223444561,
+        "wins": 10,
+        "ties": 0,
+        "losses": 0,
+        "paired_t_test_p": 1.59525132370125e-06
+      },
+      {
+        "noise_prob": 0.05,
+        "mean_difference": 0.12280701754385963,
+        "std_difference": 0.0130764209210514,
+        "wins": 10,
+        "ties": 0,
+        "losses": 0,
+        "paired_t_test_p": 2.717838280697715e-10
+      }
+    ],
+    "evolved_best_vs_random_search_best": [
+      {
+        "noise_prob": 0.0,
+        "mean_difference": 0.0,
+        "std_difference": 0.0,
+        "wins": 0,
+        "ties": 10,
+        "losses": 0,
+        "paired_t_test_p": null
+      },
+      {
+        "noise_prob": 0.02,
+        "mean_difference": 0.0008771929824561431,
+        "std_difference": 0.002773927772077534,
+        "wins": 1,
+        "ties": 9,
+        "losses": 0,
+        "paired_t_test_p": 0.3434363961379136
+      },
+      {
+        "noise_prob": 0.05,
+        "mean_difference": 0.0017543859649122862,
+        "std_difference": 0.0036985703627700458,
+        "wins": 2,
+        "ties": 8,
+        "losses": 0,
+        "paired_t_test_p": 0.16785065605707505
+      }
+    ]
+  },
+  "environment": {
+    "python": "3.13.17",
+    "pennylane": "0.45.1",
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  }
+}

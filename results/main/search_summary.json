@@ -1,0 +1,118 @@
+{
+  "run_name": "main",
+  "quick": false,
+  "config": {
+    "data_seed": 42,
+    "train_seed": 0,
+    "search_seed": 7,
+    "population_size": 12,
+    "generations": 15,
+    "elite_count": 2,
+    "tournament_size": 3,
+    "crossover_rate": 0.5,
+    "patience": 6,
+    "train_steps": 60,
+    "learning_rate": 0.1,
+    "search_noise": 0.02,
+    "noise_weight": 0.5,
+    "complexity_weight": 0.1
+  },
+  "unique_evaluations": 101,
+  "search_time_seconds": 81.18796229362488,
+  "generations_run": 11,
+  "best_evolved": {
+    "arch": [
+      {
+        "rotations": [
+          "RY",
+          "none",
+          "none",
+          "none"
+        ],
+        "entangler": "none"
+      }
+    ],
+    "depth": 2,
+    "gate_count": 5,
+    "two_qubit_gates": 0,
+    "n_params": 1,
+    "n_layers": 1,
+    "train_acc": 0.9032258064516129,
+    "val_acc": 0.868421052631579,
+    "noisy_val_acc": 0.868421052631579,
+    "final_loss": 0.3677040061510502,
+    "fitness": 0.8567147034252298,
+    "first_generation": 4
+  },
+  "best_random": {
+    "arch": [
+      {
+        "rotations": [
+          "RY",
+          "RY",
+          "RX",
+          "RX"
+        ],
+        "entangler": "linear"
+      },
+      {
+        "rotations": [
+          "RY",
+          "RZ",
+          "RY",
+          "RY"
+        ],
+        "entangler": "linear"
+      }
+    ],
+    "depth": 8,
+    "gate_count": 18,
+    "two_qubit_gates": 6,
+    "n_params": 8,
+    "n_layers": 2,
+    "train_acc": 0.9149560117302052,
+    "val_acc": 0.9035087719298246,
+    "noisy_val_acc": 0.8947368421052632,
+    "final_loss": 0.3566691801485779,
+    "fitness": 0.8550751879699249
+  },
+  "manual_baseline": {
+    "arch": [
+      {
+        "rotations": [
+          "RY",
+          "RY",
+          "RY",
+          "RY"
+        ],
+        "entangler": "ring"
+      },
+      {
+        "rotations": [
+          "RY",
+          "RY",
+          "RY",
+          "RY"
+        ],
+        "entangler": "ring"
+      }
+    ],
+    "depth": 11,
+    "gate_count": 20,
+    "two_qubit_gates": 8,
+    "n_params": 8,
+    "n_layers": 2,
+    "train_acc": 0.9032258064516129,
+    "val_acc": 0.868421052631579,
+    "noisy_val_acc": 0.8508771929824561,
+    "final_loss": 0.37005891217110365,
+    "fitness": 0.8056808688387636
+  },
+  "environment": {
+    "python": "3.13.7",
+    "pennylane": "0.45.1",
+    "numpy": "2.4.6",
+    "scikit-learn": "1.7.2",
+    "platform": "Windows-11-10.0.26300-SP0"
+  }
+}

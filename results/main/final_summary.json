@@ -1,0 +1,237 @@
+{
+  "data_seed": 42,
+  "train_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "noise_levels": [
+    0.0,
+    0.005,
+    0.01,
+    0.02,
+    0.05,
+    0.1
+  ],
+  "test_size": 114,
+  "summary_table": [
+    {
+      "model": "evolved_best",
+      "noise_prob": 0.0,
+      "mean": 0.9359649122807017,
+      "std": 0.004237244662628511
+    },
+    {
+      "model": "evolved_best",
+      "noise_prob": 0.005,
+      "mean": 0.9385964912280702,
+      "std": 0.0
+    },
+    {
+      "model": "evolved_best",
+      "noise_prob": 0.01,
+      "mean": 0.9385964912280702,
+      "std": 0.0
+    },
+    {
+      "model": "evolved_best",
+      "noise_prob": 0.02,
+      "mean": 0.9385964912280702,
+      "std": 0.0
+    },
+    {
+      "model": "evolved_best",
+      "noise_prob": 0.05,
+      "mean": 0.9385964912280702,
+      "std": 0.0
+    },
+    {
+      "model": "evolved_best",
+      "noise_prob": 0.1,
+      "mean": 0.9333333333333333,
+      "std": 0.004529805083283546
+    },
+    {
+      "model": "logistic_regression",
+      "noise_prob": 0.0,
+      "mean": 0.956140350877193,
+      "std": NaN
+    },
+    {
+      "model": "logistic_regression",
+      "noise_prob": 0.005,
+      "mean": 0.956140350877193,
+      "std": NaN
+    },
+    {
+      "model": "logistic_regression",
+      "noise_prob": 0.01,
+      "mean": 0.956140350877193,
+      "std": NaN
+    },
+    {
+      "model": "logistic_regression",
+      "noise_prob": 0.02,
+      "mean": 0.956140350877193,
+      "std": NaN
+    },
+    {
+      "model": "logistic_regression",
+      "noise_prob": 0.05,
+      "mean": 0.956140350877193,
+      "std": NaN
+    },
+    {
+      "model": "logistic_regression",
+      "noise_prob": 0.1,
+      "mean": 0.956140350877193,
+      "std": NaN
+    },
+    {
+      "model": "manual_qnn",
+      "noise_prob": 0.0,
+      "mean": 0.9377192982456141,
+      "std": 0.004979352738574955
+    },
+    {
+      "model": "manual_qnn",
+      "noise_prob": 0.005,
+      "mean": 0.9333333333333333,
+      "std": 0.004529805083283548
+    },
+    {
+      "model": "manual_qnn",
+      "noise_prob": 0.01,
+      "mean": 0.9315789473684211,
+      "std": 0.0036985703627700436
+    },
+    {
+      "model": "manual_qnn",
+      "noise_prob": 0.02,
+      "mean": 0.9052631578947368,
+      "std": 0.006919391559180823
+    },
+    {
+      "model": "manual_qnn",
+      "noise_prob": 0.05,
+      "mean": 0.8035087719298246,
+      "std": 0.015582353911665757
+    },
+    {
+      "model": "manual_qnn",
+      "noise_prob": 0.1,
+      "mean": 0.631578947368421,
+      "std": 0.0
+    },
+    {
+      "model": "random_search_best",
+      "noise_prob": 0.0,
+      "mean": 0.9438596491228071,
+      "std": 0.004529805083283482
+    },
+    {
+      "model": "random_search_best",
+      "noise_prob": 0.005,
+      "mean": 0.9377192982456141,
+      "std": 0.00277392777207753
+    },
+    {
+      "model": "random_search_best",
+      "noise_prob": 0.01,
+      "mean": 0.9368421052631579,
+      "std": 0.00369857036277004
+    },
+    {
+      "model": "random_search_best",
+      "noise_prob": 0.02,
+      "mean": 0.9324561403508772,
+      "std": 0.0042372446626285
+    },
+    {
+      "model": "random_search_best",
+      "noise_prob": 0.05,
+      "mean": 0.9245614035087719,
+      "std": 0.004529805083283541
+    },
+    {
+      "model": "random_search_best",
+      "noise_prob": 0.1,
+      "mean": 0.8789473684210527,
+      "std": 0.017446121508978115
+    }
+  ],
+  "paired_comparisons": {
+    "evolved_best_vs_manual_qnn": [
+      {
+        "noise_prob": 0.0,
+        "mean_difference": -0.001754385964912275,
+        "std_difference": 0.0055478555441550535,
+        "wins": 1,
+        "ties": 6,
+        "losses": 3,
+        "paired_t_test_p": 0.34343639613791505
+      },
+      {
+        "noise_prob": 0.02,
+        "mean_difference": 0.03333333333333337,
+        "std_difference": 0.006919391559180809,
+        "wins": 10,
+        "ties": 0,
+        "losses": 0,
+        "paired_t_test_p": 9.86181308406629e-08
+      },
+      {
+        "noise_prob": 0.05,
+        "mean_difference": 0.13508771929824565,
+        "std_difference": 0.015582353911665764,
+        "wins": 10,
+        "ties": 0,
+        "losses": 0,
+        "paired_t_test_p": 5.54465637511462e-10
+      }
+    ],
+    "evolved_best_vs_random_search_best": [
+      {
+        "noise_prob": 0.0,
+        "mean_difference": -0.007894736842105222,
+        "std_difference": 0.0049793527385749515,
+        "wins": 0,
+        "ties": 2,
+        "losses": 8,
+        "paired_t_test_p": 0.0007252150276033998
+      },
+      {
+        "noise_prob": 0.02,
+        "mean_difference": 0.0061403508771930015,
+        "std_difference": 0.0042372446626285035,
+        "wins": 7,
+        "ties": 3,
+        "losses": 0,
+        "paired_t_test_p": 0.0013229505842674944
+      },
+      {
+        "noise_prob": 0.05,
+        "mean_difference": 0.01403508771929829,
+        "std_difference": 0.004529805083283543,
+        "wins": 10,
+        "ties": 0,
+        "losses": 0,
+        "paired_t_test_p": 4.239738886259833e-06
+      }
+    ]
+  },
+  "environment": {
+    "python": "3.13.17",
+    "pennylane": "0.45.1",
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  }
+}

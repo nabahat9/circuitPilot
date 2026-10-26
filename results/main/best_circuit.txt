@@ -1,0 +1,6 @@
+layer 1: [  RY none none none]  entangler=none
+
+0: ──RY──RY─┤  <Z>
+1: ──RY─────┤     
+2: ──RY─────┤     
+3: ──RY─────┤     
