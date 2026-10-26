@@ -1,4 +1,4 @@
-# CircuitPilot-Lite
+# CircuitPilot
 
 A small project using a genetic algorithm to search for quantum neural network (QNN) architectures for binary classification.
 
